@@ -41,7 +41,7 @@ def main():
     if html:
         print("\n[SUCCESS] Page fetched successfully!")
         print(f"HTML length: {len(html)} characters\n")
-        print(html[:1000])  # print first 1000 chars
+        print(html[:1000])  
     else:
         print("\n[FAILED] Could not fetch the page.")
 
